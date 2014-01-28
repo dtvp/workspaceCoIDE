@@ -26,33 +26,29 @@ int main(void)
 	{
 
 		/* PD12 to be toggled */
-		GPIO_SetBits(GPIOD, GPIO_Pin_12);
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
 
 		/* Insert delay */
 		Delay(0x3FFFFF);
 
 		/* PD13 to be toggled */
-		GPIO_SetBits(GPIOD, GPIO_Pin_13);
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
 
 		/* Insert delay */
 		Delay(0x3FFFFF);
 
 		/* PD14 to be toggled */
-		GPIO_SetBits(GPIOD, GPIO_Pin_14);
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_14);
 
 		/* Insert delay */
 		Delay(0x3FFFFF);
 
 		/* PD15 to be toggled */
-		GPIO_SetBits(GPIOD, GPIO_Pin_15);
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_15);
 
 		/* Insert delay */
-		Delay(0x7FFFFF);
+		Delay(0x3FFFFF);
 
-		GPIO_ResetBits(GPIOD, GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15);
-
-		/* Insert delay */
-		Delay(0xFFFFFF);
 	}
 
 }
