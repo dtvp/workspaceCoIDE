@@ -1,0 +1,25 @@
+*.metadata
+*.cproject
+*.project
+.~*.doc#
+*.bin
+*.elf
+*.o
+*.mk
+*.bak
+*.d
+*.crf
+*.axf
+*.lnp
+*.map
+*.plg
+*.dep
+*.cogui
+*.comarker
+
+# Created by http://gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride

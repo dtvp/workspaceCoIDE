@@ -12,6 +12,7 @@ int main(void)
 
 	SystemInit();
 
+	/* Systick config and init */
 	SysTick_Config(SystemCoreClock / 1000);
 
 	/* GPIOD Periph clock enable */
